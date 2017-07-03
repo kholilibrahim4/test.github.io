@@ -1,0 +1,116 @@
+/*
+=========
+===TOC===
+=========
+default css
+
+
+
+
+*/
+
+
+
+/*default css ===================*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+body{
+    color: #707070;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+    margin: 0 0 15px 0
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*
+li{
+    display: inline-block;
+}
+*/
+a:hover{
+    text-decoration: none
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+section.section-padding{
+    padding: 60px 0
+}
+ul.tab-list {
+    background: #016c38 none repeat scroll 0 0;
+    padding: 14px;
+}
+ul.tab-list li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+ul.tab-list li a .fa {
+  background: #4da048 none repeat scroll 0 0;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  width: 40px;
+}
+.tab-list li:hover,ul.tab-list li.active {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+}
+.tab-list li {
+    margin-bottom: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+ul.tab-list li:nth-child(2) a .fa{
+    background: #9A9A06 none repeat scroll 0 0;
+}
+ul.tab-list li:nth-child(3) a .fa{
+    background: #F99406 none repeat scroll 0 0;
+}
+ul.tab-list li:nth-child(4) a .fa{
+    background: #00d8ff none repeat scroll 0 0;
+}
+ul.tab-list li:nth-child(5) a .fa{
+    background: #0090ff none repeat scroll 0 0;
+}
+.tab-list li:last-child{
+    margin-bottom: 0;
+}
+img.tab-pic {
+  margin-top: 61px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
