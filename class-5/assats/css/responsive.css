@@ -1,0 +1,30 @@
+/*responsive css ===================*/
+
+/*media screen 300px------*/
+@media only screen and (max-width:300px){
+
+}
+
+/*media screen 576px------*/
+@media only screen and (max-width:576px){
+
+}
+/*media screen 768px------*/
+@media only screen and (max-width:767px){
+    .col-padding{
+        padding-right: 0px;
+    }
+    .section-content {
+      padding: 0 15px;
+    }
+    
+}
+/*media screen 992px------*/
+@media only screen and (max-width:992px){
+
+}
+/*media screen 1200px------*/
+@media only screen and (max-width:1200px){
+
+
+}
